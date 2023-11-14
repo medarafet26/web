@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscription</title>
+</head>
+<body>
+<header>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="service.html">Service</a>
+        <a href="inscription.html">Inscription</a><br>
+        <hr>
+        <img src="img.jpg">
+        <hr>
+</header>
+    <section>
+        <label>Nom :</label>
+        <input type="text" minlength="3" > <br>
+        <label>Prénom :</label>
+        <input type="text" minlength="3" > <br>
+        <label>Telephone :</label>
+        <input type="text"  required pattern="[0-9]+" maxlength="8"> <br>
+        <label>Adresse :</label>
+        <textarea cols="10" rows="5"></textarea><br>
+        <label>Email :</label>
+        <input type="email" pattern=".+@esprit.tn" title="esprit adresse" required> <br>
+        <label>Password:</label>
+        <input type="password" > <br> 
+        <label>Confirm Password:</label>
+        <input type="password" > <br>   
+        <label>Date :</label>
+        <input type="date"> <br>
+        <input type="submit">
+        <input type="reset"> <br>
+    </section>
+    <footer>
+        <hr>
+        <h2>Contactez nos</h2><br>
+        <a href="mailto:esprit@esprit.tn">email: esprit@esprit.tn</a>
+    </footer>
+</body>
